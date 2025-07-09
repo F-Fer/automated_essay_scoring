@@ -10,6 +10,7 @@
     * [Statistical Analyses](#statistical-analyses)
 5.  [Project Structure](#project-structure)
 6.  [Notebooks Overview and Links](#notebooks-overview-and-links)
+7. [Dual Bert Encoder Architecture Diagram](#dual-bert-encoder-architecture-diagram)
 
 ## Introduction
 This project, developed as part of our NLP module, focuses on the automatic evaluation of essays written for IELTS (International English Language Testing System) Writing Tasks. The primary goals are to predict essay scores across various criteria and to categorize essays based on their respective prompts.
@@ -103,3 +104,7 @@ These notebooks correspond to the statistical analyses outlined in the methodolo
 | Twin BERT Encoder | Regression | CLS token appended | 61.23% |
 | Twin BERT Encoder | Regression | Cross-attention | 80.83% |
 | EuroBert | Regression | - | 53.0% |
+
+## Dual Bert Encoder Architecture Diagram
+
+![dual bert encoder architecture diagram](dual-bert-encoder-cross-attention-architecture.png)
